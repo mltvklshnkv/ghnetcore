@@ -18,7 +18,5 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - name: Fail
-      run: echo "It will fail" && exit 1
     - name: Echo Something
       run: echo "Hey, you!"
